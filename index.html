@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mail</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <form class="footer__form">
+                    <h2 class="footer__title">
+                        ОСТАВИТЬ ЗАЯВКУ
+                    </h2>
+
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="mailtest">
+                    <input type="hidden" name="admin_email" value="okrughelen@gmail.com">
+                    <input type="hidden" name="form_subject" value="Form">
+                    <!-- END Hidden Required Fields -->
+
+                    <input class="footer__input" name="Имя" type="text" placeholder="Имя">
+                    <input class="footer__input" name="Телефон" type="tel" placeholder="Телефон">
+                    <button class="footer__form-btn button">
+                        <svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="button__path" d="M99.0521 50C99.0521 77.0615 77.1029 99 50.026 99C22.9492 99 1 77.0615 1 50C1 22.9385 22.9492 1 50.026 1C77.1029 1 99.0521 22.9385 99.0521 50Z" stroke="white" stroke-width="2" fill="transparent"/>
+                        <path d="M70.7434 50.7071C71.134 50.3166 71.134 49.6834 70.7434 49.2929L64.3795 42.9289C63.989 42.5384 63.3558 42.5384 62.9653 42.9289C62.5747 43.3195 62.5747 43.9526 62.9653 44.3431L68.6221 50L62.9653 55.6569C62.5747 56.0474 62.5747 56.6805 62.9653 57.0711C63.3558 57.4616 63.989 57.4616 64.3795 57.0711L70.7434 50.7071ZM30.0155 51H70.0363V49H30.0155V51Z" fill="white"/>
+                        </svg>
+                        <span class="button__text">
+                            оставить заявку
+                        </span>
+                    </button>
+                </form>
+                <div class="footer__contacts">
+                    <h2 class="footer__title">
+                        КОНТАКТЫ
+                    </h2>
+                    <ul class="footer__contacts-list">
+                        <li class="footer__contacts-item">
+                            Центральный офис: <br>г. Москва
+                        </li>
+                        <li class="footer__contacts-item">
+                            Представительство в Киеве:<br>г. Киев
+                        </li>
+                        <li class="footer__contacts-item">
+                            Представительства в Минске, Казахстане, Польше
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__phone" href="tel:79876545456">+7 957 654-55-56</a><br>
+                            <a class="footer__phone" href="tel:79876545456">+38 067 598-33-77</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            Ежедневно 08:00 - 21:00
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <a class="footer__bottom-link" href="#">
+                    Политика конфиденциальности
+                </a>
+            </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
